@@ -3165,10 +3165,10 @@ tbody.collapse.show {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: rgb(224, 224, 224);
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
+  border: none;
+
 }
 
 .dropup .dropdown-menu {
@@ -3266,7 +3266,7 @@ tbody.collapse.show {
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: 0.25rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   clear: both;
   font-weight: 400;
   color: #212529;
@@ -3277,15 +3277,15 @@ tbody.collapse.show {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #16181b;
+  color: #930729;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: #404040;
 }
 
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #007bff;
+  background-color:#007bff;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -7549,6 +7549,24 @@ button.bg-dark:focus {
   margin-left: 3rem !important;
 }
 
+.mt-6, .my-6 {
+  margin-top: 5rem;
+}
+
+.mr-6, .mx-6 {
+  margin-right: 5rem;
+}
+
+.mb-6, .my-6 {
+  margin-bottom: 5rem;
+}
+
+.ml-6, .mx-6 {
+  margin-left: 5rem;
+}
+
+
+
 .p-0 {
   padding: 0 !important;
 }
@@ -8755,6 +8773,7 @@ button.bg-dark:focus {
   }
 }
 
+
 @media (min-width: 768px) {
   .text-md-left {
     text-align: left !important;
@@ -8765,6 +8784,7 @@ button.bg-dark:focus {
   .text-md-center {
     text-align: center !important;
   }
+
 }
 
 @media (min-width: 992px) {
