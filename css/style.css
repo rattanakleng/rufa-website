@@ -90,6 +90,10 @@ body {
   background-color: #8c8c8c;
 }
 
+.bg-lt-gray {
+  background-color: #f2f2f2;
+}
+
 .btn-red {
   background-color: #930729;
   align-content: center;
@@ -120,6 +124,10 @@ body {
 
 a:hover {
   text-decoration: none;
+  color: #930729;
+}
+
+a:active {
   color: #930729;
 }
 
@@ -159,4 +167,40 @@ a:hover {
 
 .img-box:focus {
   outline: none;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20%2844%29.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-responsive {
+  font-size: 1vw;
+}
+
+.img-fluid-70 {
+  max-width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.d-block-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-img {
+  background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20%2844%29.jpg");
+}
+
+.side-nav-container {
+  height: 100%;
 }

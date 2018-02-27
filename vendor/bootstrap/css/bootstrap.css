@@ -482,6 +482,7 @@ mark,
   height: auto;
 }
 
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -565,6 +566,9 @@ pre code {
   .container {
     max-width: 540px;
   }
+  .logo-fluid {
+    max-width: 50px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -582,6 +586,9 @@ pre code {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+  .logo-fluid {
+    max-width: 150px;
   }
 }
 
