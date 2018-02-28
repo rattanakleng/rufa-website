@@ -19,15 +19,19 @@ $headline-img: 25rem;
   padding: $pad-up-dn $pad-left-right;
 }
 
-body {
+.pt-6 {
   padding-top: 54px;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+.page-label {
+  margin-top: 200px;
 }
+
+// @media (min-width: 992px) {
+//   // body {
+//   //   padding-top: 56px;
+//   // }
+// }
 
 .carousel-item {
   height: 65vh;
@@ -212,9 +216,22 @@ a:active {
 
 .header-img {
   background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20%2844%29.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 //side nav
 .side-nav-container {
   height: 100%;
+}
+
+.red-line {
+  display: block;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 3px;
+  border-color: $red;
 }

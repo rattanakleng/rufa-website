@@ -3,14 +3,12 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
-body {
+.pt-6 {
   padding-top: 54px;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+.page-label {
+  margin-top: 200px;
 }
 
 .carousel-item {
@@ -199,8 +197,21 @@ a:active {
 
 .header-img {
   background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20%2844%29.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .side-nav-container {
   height: 100%;
+}
+
+.red-line {
+  display: block;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 3px;
+  border-color: #930729;
 }
